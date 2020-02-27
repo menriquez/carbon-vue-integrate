@@ -11,6 +11,9 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "@carbon/icons-vue": "^10.8.2",
+    "@carbon/vue": "^2.23.0",
+    "carbon-components": "^10.9.3",
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3"
@@ -27,12 +30,19 @@
     "babel-jest": "^23.6.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "^4.9.0",
+    "husky": "^4.2.3",
+    "node-sass": "^4.13.1",
+    "precise-commits": "^1.0.2",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.6.10"
   },
   "prettier": {
     "singleQuote": true
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "precise-commits"
+    }
   },
   "eslintConfig": {
     "root": true,
