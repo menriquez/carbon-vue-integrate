@@ -677,6 +677,14 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
+"@carbon/grid@^10.8.3":
+  version "10.8.3"
+  resolved "https://registry.npm.taobao.org/@carbon/grid/download/@carbon/grid-10.8.3.tgz#4148749f18703d15142f1347ccf036445d6997ba"
+  integrity sha1-QUh0nxhwPRUULxNHzPA2RF1pl7o=
+  dependencies:
+    "@carbon/import-once" "^10.3.0"
+    "@carbon/layout" "^10.7.3"
+
 "@carbon/icon-helpers@^10.5.0", "@carbon/icon-helpers@^10.5.2":
   version "10.5.2"
   resolved "https://registry.npm.taobao.org/@carbon/icon-helpers/download/@carbon/icon-helpers-10.5.2.tgz#7975fc091206f4a423e812dada89519df52c2041"
@@ -695,6 +703,16 @@
   integrity sha1-N7+FNmLn4wn/Lx6hCH+IpLnDduM=
   dependencies:
     "@carbon/icon-helpers" "^10.5.2"
+
+"@carbon/import-once@^10.3.0":
+  version "10.3.0"
+  resolved "https://registry.npm.taobao.org/@carbon/import-once/download/@carbon/import-once-10.3.0.tgz#58617da4efb6d7a11352d8e6b7209da1d39f364d"
+  integrity sha1-WGF9pO+216ETUtjmtyCdodOfNk0=
+
+"@carbon/layout@^10.7.3":
+  version "10.7.3"
+  resolved "https://registry.npm.taobao.org/@carbon/layout/download/@carbon/layout-10.7.3.tgz#eddb4aceae38ae0c3065c3485e2b01a1e1f683dc"
+  integrity sha1-7dtKzq44rgwwZcNIXisBoeH2g9w=
 
 "@carbon/vue@^2.23.0":
   version "2.23.0"
