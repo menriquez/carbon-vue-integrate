@@ -13,9 +13,6 @@ export default {
     totalRows: Number
   },
 
-
-
-
   components: { LinkList },
 
   computed: {
