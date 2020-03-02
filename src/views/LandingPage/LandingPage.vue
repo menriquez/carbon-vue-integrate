@@ -65,7 +65,7 @@ const props = { tabs: selected: 0, triggerHref: '#', role: 'navigation', }tab:re
         <h1 class="landing-page__heading">Design &amp; build with Carbon</h1>
       </div>
     </div>
-    <d    v class="bx--row landing-page__r2">
+    <div class="bx--row landing-page__r2">
       <div class="bx--col bx--no-gutter">
         <cv-tabs selected="0">
         <cv-tab label="About">
@@ -80,7 +80,7 @@ const props = { tabs: selected: 0, triggerHref: '#', role: 'navigation', }tab:re
                             tools and resources, human interface guidelines, and a
                             vibrant community of contributors.
                           </p>
-                   <cv-b  utton>Learn more</cv-button>
+                   <cv-button>Learn more</cv-button>
             </div>
                              <div class="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
                    <img   
@@ -93,14 +93,14 @@ const props = { tabs: selected: 0, triggerHref: '#', role: 'navigation', }tab:re
             </div>
           </cv-tab>
           <cv-tab label="Design">
-            <di    v class="bx--grid bx--grid--no-gutter bx--grid--full-width">
+            <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
               <div class="bx--row landing-page__tab-content">
                 <div class="bx--col-lg-16">
                     Rapidly build beautiful and accessible experiences. The Carbon     
                   kitkit contains all resources you need to get started.
                    </div>
               </div>
-         </div   >
+         </div>
              </cv-tab>
           <cv-tab label="Develop">
               <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
@@ -108,7 +108,7 @@ const props = { tabs: selected: 0, triggerHref: '#', role: 'navigation', }tab:re
                  <div class="bx--col-lg-16">
                      Carbon provides styles and components in Vanilla, React,
                  Angular, Angular, and Vue for anyone building on the web.
-                 </di v>
+                 </div>
                  </div>
               </div>
           </cv-tab>
@@ -117,7 +117,7 @@ const props = { tabs: selected: 0, triggerHref: '#', role: 'navigation', }tab:re
     </div>
       <div class="bx--row landing-page__r3">
       <div class="bx--col-md-4 bx--col-lg-4">
-       <h 3 class="landing-page__label">The Principles</h3>
+       <h3 class="landing-page__label">The Principles</h3>
       </div>
       <div class="bx--col-md-4 bx--col-lg-4">Carbon is Open</div>
       <div class="bx--col-md-4 bx--col-lg-4">Carbon is Modular</div>

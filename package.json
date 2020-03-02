@@ -14,9 +14,16 @@
     "@carbon/grid": "^10.8.3",
     "@carbon/icons-vue": "^10.8.2",
     "@carbon/vue": "^2.23.0",
+    "apollo-boost": "^0.4.7",
     "carbon-components": "^10.9.3",
     "core-js": "^2.6.5",
+    "graphql": "^14.6.0",
+    "graphql-tag": "^2.10.3",
+    "language": "^0.4.0",
+    "parser": "^0.1.4",
     "vue": "^2.6.10",
+    "vue-apollo": "^3.0.3",
+    "vue-cli-plugin-apollo": "^0.21.3",
     "vue-router": "^3.0.3"
   },
   "devDependencies": {
@@ -35,7 +42,7 @@
     "node-sass": "^4.13.1",
     "precise-commits": "^1.0.2",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "2.6.10"
   },
   "prettier": {
     "singleQuote": true
