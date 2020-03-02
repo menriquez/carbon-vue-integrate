@@ -11,7 +11,11 @@ export default {
     helperText: String,
     loading: Boolean,
     totalRows: Number
-  },
+  },
+
+
+
+
   components: { LinkList },
 
   computed: {
@@ -56,7 +60,9 @@ export default {
       <template slot="data">
         <cv-data-table-row v-for="(row, rowIndex) in data" :key="`${rowIndex}`">
           <!-- <cv-data-table-cell
+
           v-for="(cell, cellIndex) in row.data"
+
           :key="`${cellIndex}`"
           >{{ cell }}</cv-data-table-cell
           >-->
