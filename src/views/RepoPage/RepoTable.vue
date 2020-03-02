@@ -1,5 +1,4 @@
 <script>
-
 import LinkList from './LinkList';
 
 export default {
@@ -8,13 +7,13 @@ export default {
     headers: Array,
     rows: Array,
     title: String,
+
     helperText: String,
     loading: Boolean,
-    totalRows: Number,
-  },
-  
+    totalRows: Number
+  },
   components: { LinkList },
-  
+
   computed: {
     columns() {
       return this.headers.map(header => header.header);
@@ -36,22 +35,51 @@ export default {
 };
 </script>
 
-
 <template>
   <div v-if="loading">Loading...</div>
-  <cv-data-table v-else :columns="columns" :title="title" :helper-text="helperText" :pagination="{ numberOfItems: this.totalRows }" @pagination="$emit('pagination', $event)">
-    <template slot="data">
-      <cv-data-table-row v-for="(row, rowIndex) in data" :key="`${rowIndex}`">
-		<cv-data-table-cell v-for="(cell, cellIndex) in row.data" :key="`${cellIndex}`">
-		  <template v-if="!cell.url">
-		    {{cell}}
-		  </template>
-		  <link-list v-else :url="cell.url" :homepage-url="cell.homepageUrl" />
-		</cv-data-table-cell>
+  <cv-data-table
+   
+    v-el
+   se
+    :columns="columns"
+   
+    :title="title"
+   
+    :helper-text="helperText"
+   
+    :pagination="{ numberOfItems: this.totalRows }"
+   
+   
+    @pagination="$emit('pagination', $event)"
+  
+  
+  
+  
+  
+  
+        >
+    <tem        ate slot="data">
+      <cv-data-table-row
+         
+          v-for="(row, rowIndex) in data"
+          :key="`${rowIndex}`"
+        
+              
+              >
+              <cv-data-table-cell
+
+          v-for="(cell, cellIndex) in row.data"
+
+                   :key="`${cellIndex}`"
+        >
+          <template v-if="!cell.url">
+            {{ cell }}
+          </template>          <link-list v-else :url="cell.url" :homepage-url="cell.homepageUrl" />
+        </cv-data-table-cell>
         <template slot="expandedContent">
           {{ row.description }}
         </template>
       </cv-data-table-row>
     </template>
-  </cv-data-table>
-</template>
+        </cv-data-table>
+</templ
