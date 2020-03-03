@@ -12,7 +12,7 @@ Vue.use(VueApollo);
 // const AUTH_TOKEN = 'apollo-token';
 
 // Use our access token
-const AUTH_TOKEN = '062e7753687c125265df7ae7bb21d559412cdf13';
+const AUTH_TOKEN = process.env.VUE_APP_GITHUB_PERSONAL_ACCESS_TOKEN;
 
 // Http endpoint
 // const httpEndpoint =
